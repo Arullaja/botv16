@@ -38,9 +38,9 @@ Wa.me/${owner}
 }
 exports.paymentstore = (owner) => {
 return `*PAYMENT STORE*
-Dana : 0881-7864-684
-Ovo : 0823-1646-4080
-Pulsa : 0823-1646-4080
+Dana : 0882-0011-13526
+Ovo : 0813-1031-2459
+Pulsa : 0821-3029-5912
 
 Note :
 Jika Sudah Transfer Wajib Kirim
@@ -276,9 +276,9 @@ return`*HAI KAK MAU BENERAN DONASI ATAU TIDAK KAK*
 *SEMOGA TIDAK DILIHAT DOANG*
 
 *PAYMENT BOT*
-DANA: (0857-8900-4732)
-OVO: (0822-7991-5237)
-PULSA: (0822-7991-5237)
+Dana : (0882-0011-13526)
+Ovo : (0813-1031-2459)
+Pulsa : (0821-3029-5912)
 
 *TERIMA KASIH KAK*
 *LOVE YOU😋*`
