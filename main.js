@@ -49,7 +49,7 @@ ppimg = await Lexxy.getProfilePicture(`${num.split('@')[0]}@c.us`)
 ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 let buff = await getBuffer(ppimg)
-masuk =`𝐇𝐚𝐢 *@${num.split('@')[0]}*\n𝐈𝐧𝐭𝐫𝐨 𝐃𝐮𝐥𝐮 𝐘𝐚𝐤 !!\n𝐍𝐚𝐦𝐚 :\n𝐀𝐬𝐤𝐨𝐭 :\n𝐔𝐦𝐮𝐫 :\n𝐊𝐞𝐥𝐚𝐬 :\n𝐒𝐭𝐚𝐭𝐮𝐬 :`
+masuk =`𝐇𝐚𝐢 *@${num.split('@')[0]}*\n𝐈𝐧𝐭𝐫𝐨 𝐃𝐮𝐥𝐮 𝐘𝐚𝐤 !!\n𝐍𝐚𝐦𝐚 :\n𝐀𝐬𝐤𝐨𝐭 :\n𝐔𝐦𝐮𝐫 :\n𝐊𝐞𝐥𝐚𝐬 :\n𝘾𝙚𝙬𝙚 𝙊𝙧 𝘾𝙤𝙬𝙤 :`
 Lexxy.sendMessage(mdata.id, masuk, MessageType.text, { quoted: fkontakk, thumbnail: fs.readFileSync('./gambar/fake.jpg'), contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Welcome To ${mdata.subject}`,body:"",mediaType:"2",thumbnail:buff,mediaUrl:`https://youtu.be/6DYH9n7CH44`}}})
 } else if (anu.action == 'remove') {
 fkontakk = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '6283136505591-1604595598@g.us' } : {})}, message: { "contactMessage":{"displayName": `${mdata.subject}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;Lexxy;;;\nFN:Lexxy\nitem1.TEL;waid=6282279915237:6282279915237\nitem1.X-ABLabel:Mobile\nEND:VCARD` }}}
